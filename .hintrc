@@ -15,7 +15,10 @@
       "default",
       {
         "ignore": [
-          "backdrop-filter"
+          "backdrop-filter",
+          "clip-path: circle(50% at 12% 50%)",
+          "border-top: 1px solid #eeeded70",
+          "border-left: 1px solid #eeeded70"
         ]
       }
     ]
