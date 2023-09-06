@@ -33,6 +33,7 @@ function Card() {
         src={Mastercard} // Switch ? Visa : MasterCard
         alt="BIN Checker, Logo, Mastercard, VISA"
         className="logo"
+        title='Switch ? Visa : MasterCard'
       />
     </div>
   );
