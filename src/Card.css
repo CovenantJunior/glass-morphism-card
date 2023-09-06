@@ -8,7 +8,8 @@
 
 @font-face {
     font-family: 'ocr extended';
-    src: url(../assets/webfonts/OCRAEXT.ttf);
+    src: url(./webfonts/OCRAEXT.TTF);
+
 }
 
 body {
