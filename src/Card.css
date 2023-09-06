@@ -41,8 +41,8 @@ body:before {
     position: relative;
     background: repeating-radial-gradient(
         140% 140% at 0% 0%,
-            rgba(255, 255, 255, 0.4) 0%,
-            rgba(255, 255, 255, 0) 100%
+        rgba(0, 123, 255, 0.4) 0%,
+        rgba(0, 123, 255, 0) 100%
     );
     border-top: 1px solid #eeeded70;
     border-left: 1px solid #eeeded70;
