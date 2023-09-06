@@ -30,7 +30,7 @@ function Card() {
         01/27
       </h5>
       <img
-        src={Visa}
+        src={Mastercard} // Switch ? Visa : MasterCard
         alt="BIN Checker, Logo, Mastercard, VISA"
         className="logo"
       />
