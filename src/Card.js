@@ -1,7 +1,8 @@
 import './Card.css';
 import clip from './assets/clip.png';
 import indicator from './assets/indicator.png';
-import visa from './assets/visa.png';
+import Visa from './assets/visa.png';
+import Mastercard from './assets/mastercard.png';
 
 function Card() {
   return (
@@ -29,7 +30,7 @@ function Card() {
         01/27
       </h5>
       <img
-        src={logo}
+        src={Visa}
         alt="BIN Checker, Logo, Mastercard, VISA"
         className="logo"
       />
