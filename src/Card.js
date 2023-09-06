@@ -1,7 +1,7 @@
 import './Card.css';
 import clip from './assets/clip.png';
 import indicator from './assets/indicator.png';
-import logo from './assets/logo.png';
+import visa from './assets/visa.png';
 
 function Card() {
   return (
