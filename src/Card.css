@@ -8,8 +8,7 @@
 
 @font-face {
     font-family: 'ocr extended';
-    src: url(./webfonts/OCRAEXT.TTF);
-
+    src: url(../assets/webfonts/OCRAEXT.ttf);
 }
 
 body {
@@ -137,5 +136,107 @@ body:before {
     width: 70px;
     position: absolute;
     right: 30px;
-    bottom: 30px;
+    bottom: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 95%;
+        height: 230px;
+    }
+
+    .bank {
+        color: #fff;
+        font-size: 18px;
+        font-family: quicksand, sans-serif;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .clip {
+        width: 30px;
+        position: absolute;
+        top: 70px;
+        left: 40px;
+    }
+
+    .indicator {
+        width: 30px;
+        position: absolute;
+        top: 70px;
+        left: 100px;
+    }
+
+    .number {
+        color: #fff;
+        font-size: 25px;
+        font-family: 'ocr extended';
+        font-weight: 400;
+        position: absolute;
+        bottom: 90px;
+        left: 30px;
+    }
+
+    /* textarea.number {
+        color: #fff;
+        font-size: 36px;
+        font-family: 'ocr extended';
+        font-weight: 400;
+        position: absolute;
+        bottom: 100px;
+        left: 30px;
+        background: none;
+        border: none;
+        top: 175px;
+    } */
+
+    .card-holder {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'ocr extended';
+        font-weight: 400;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        text-transform: uppercase;
+    }
+
+    .card-holder span {
+        font-size: 10px;
+        font-family: quicksand, sans-serif;
+        font-weight: 400;
+    }
+
+    .valid {
+        color: #fff;
+        font-size: 15px;
+        font-family: 'ocr extended';
+        font-weight: 400;
+        position: absolute;
+        bottom: 30px;
+        left: 260px;
+        text-transform: uppercase;
+    }
+
+    .valid span {
+        font-size: 10px;
+        font-family: quicksand, sans-serif;
+        font-weight: 400;
+    }
+
+    .logo {
+        width: 40px;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+    }
 }
