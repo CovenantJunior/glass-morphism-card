@@ -144,13 +144,13 @@ body:before {
 }
 
 .show {
-
+    display: block;
 }
 
 @media screen and (max-width: 768px) {
     .card {
         max-width: 95%;
-        height: 230px;
+        height: 300px;
     }
 
     .bank {
