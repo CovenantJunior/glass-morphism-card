@@ -53,6 +53,10 @@ body:before {
     cursor: pointer;
 }
 
+.card:hover {
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+}
+
 .bank {
     color: #fff;
     font-size: 28px;
