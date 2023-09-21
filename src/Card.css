@@ -37,7 +37,7 @@ body:before {
 
 .card {
     width: 506px;
-    height: 319px;
+    height: 300px;
     position: relative;
     background: repeating-radial-gradient(
         140% 140% at 0% 0%,
@@ -62,21 +62,21 @@ body:before {
     font-size: 28px;
     font-family: quicksand, sans-serif;
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 30px;
 }
 
 .clip {
     width: 50px;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 40px;
 }
 
 .indicator {
     width: 50px;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 100px;
 }
 
@@ -86,7 +86,7 @@ body:before {
     font-family: 'ocr extended';
     font-weight: 400;
     position: absolute;
-    bottom: 100px;
+    bottom: 90px;
     left: 30px;
 }
 
@@ -140,7 +140,7 @@ body:before {
 .logo {
     width: 70px;
     position: absolute;
-    right: 30px;
+    right: 20px;
     bottom: 20px;
 }
 
@@ -206,14 +206,14 @@ body:before {
     .clip {
         width: 50px;
         position: absolute;
-        top: 100px;
+        top: 90px;
         left: 40px;
     }
 
     .indicator {
         width: 50px;
         position: absolute;
-        top: 100px;
+        top: 90px;
         left: 100px;
     }
 
@@ -277,7 +277,7 @@ body:before {
     .logo {
         width: 70px;
         position: absolute;
-        right: 30px;
+        right: 20px;
         bottom: 20px;
     }
 }
@@ -286,7 +286,8 @@ body:before {
 @media screen and (max-width: 480px) {
     .card {
         max-width: 95%;
-        height: 235px;
+        height: 220px;
+        border-radius: 20px;
     }
 
     .bank {
@@ -294,21 +295,21 @@ body:before {
         font-size: 18px;
         font-family: quicksand, sans-serif;
         position: absolute;
-        top: 30px;
+        top: 20px;
         right: 30px;
     }
 
     .clip {
         width: 30px;
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 30px;
     }
 
     .indicator {
         width: 30px;
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 70px;
     }
 
@@ -318,7 +319,7 @@ body:before {
         font-family: 'ocr extended';
         font-weight: 400;
         position: absolute;
-        bottom: 90px;
+        bottom: 80px;
         left: 20px;
     }
 
@@ -372,7 +373,7 @@ body:before {
     .logo {
         width: 50px;
         position: absolute;
-        right: 30px;
+        right: 20px;
         bottom: 25px;
     }
     
